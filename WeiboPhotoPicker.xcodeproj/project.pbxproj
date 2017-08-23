@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4A0EE81F4D608B0014EC48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0EE71F4D608B0014EC48 /* main.m */; };
+		3A4A0EEB1F4D608B0014EC48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0EEA1F4D608B0014EC48 /* AppDelegate.m */; };
+		3A4A0EEE1F4D608B0014EC48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0EED1F4D608B0014EC48 /* ViewController.m */; };
+		3A4A0EF11F4D608B0014EC48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4A0EEF1F4D608B0014EC48 /* Main.storyboard */; };
+		3A4A0EF31F4D608B0014EC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4A0EF21F4D608B0014EC48 /* Assets.xcassets */; };
+		3A4A0EF61F4D608B0014EC48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4A0EF41F4D608B0014EC48 /* LaunchScreen.storyboard */; };
+		3A4A0F011F4D608B0014EC48 /* WeiboPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F001F4D608B0014EC48 /* WeiboPhotoPickerTests.m */; };
+		3A4A0F0C1F4D608B0014EC48 /* WeiboPhotoPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F0B1F4D608B0014EC48 /* WeiboPhotoPickerUITests.m */; };
+		3A4A0F291F4D639C0014EC48 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F1A1F4D639C0014EC48 /* Demo1ViewController.m */; };
+		3A4A0F2A1F4D639C0014EC48 /* Demo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4A0F1B1F4D639C0014EC48 /* Demo1ViewController.xib */; };
+		3A4A0F2B1F4D639C0014EC48 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F1D1F4D639C0014EC48 /* Demo2ViewController.m */; };
+		3A4A0F2C1F4D639C0014EC48 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F1F1F4D639C0014EC48 /* Demo3ViewController.m */; };
+		3A4A0F2D1F4D639C0014EC48 /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F211F4D639C0014EC48 /* Demo4ViewController.m */; };
+		3A4A0F2E1F4D639C0014EC48 /* Demo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4A0F221F4D639C0014EC48 /* Demo4ViewController.xib */; };
+		3A4A0F2F1F4D639C0014EC48 /* Demo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F241F4D639C0014EC48 /* Demo5ViewController.m */; };
+		3A4A0F301F4D639C0014EC48 /* Demo6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F261F4D639C0014EC48 /* Demo6ViewController.m */; };
+		3A4A0F311F4D639C0014EC48 /* Demo6SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A0F281F4D639C0014EC48 /* Demo6SubViewController.m */; };
+		8442BEF83ECAA9E0A0FF3936 /* Pods_WeiboPhotoPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2478CB9DD75574838980515 /* Pods_WeiboPhotoPicker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A4A0EFD1F4D608B0014EC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A4A0EDB1F4D608B0014EC48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4A0EE21F4D608B0014EC48;
+			remoteInfo = WeiboPhotoPicker;
+		};
+		3A4A0F081F4D608B0014EC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A4A0EDB1F4D608B0014EC48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4A0EE21F4D608B0014EC48;
+			remoteInfo = WeiboPhotoPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A4A0EE31F4D608B0014EC48 /* WeiboPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4A0EE71F4D608B0014EC48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A4A0EE91F4D608B0014EC48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A4A0EEA1F4D608B0014EC48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A4A0EEC1F4D608B0014EC48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A4A0EED1F4D608B0014EC48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A4A0EF01F4D608B0014EC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A4A0EF21F4D608B0014EC48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A4A0EF51F4D608B0014EC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A4A0EF71F4D608B0014EC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4A0EFC1F4D608B0014EC48 /* WeiboPhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboPhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4A0F001F4D608B0014EC48 /* WeiboPhotoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboPhotoPickerTests.m; sourceTree = "<group>"; };
+		3A4A0F021F4D608B0014EC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4A0F071F4D608B0014EC48 /* WeiboPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4A0F0B1F4D608B0014EC48 /* WeiboPhotoPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboPhotoPickerUITests.m; sourceTree = "<group>"; };
+		3A4A0F0D1F4D608B0014EC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4A0F191F4D639C0014EC48 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		3A4A0F1A1F4D639C0014EC48 /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		3A4A0F1B1F4D639C0014EC48 /* Demo1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo1ViewController.xib; sourceTree = "<group>"; };
+		3A4A0F1C1F4D639C0014EC48 /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		3A4A0F1D1F4D639C0014EC48 /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		3A4A0F1E1F4D639C0014EC48 /* Demo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
+		3A4A0F1F1F4D639C0014EC48 /* Demo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
+		3A4A0F201F4D639C0014EC48 /* Demo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
+		3A4A0F211F4D639C0014EC48 /* Demo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
+		3A4A0F221F4D639C0014EC48 /* Demo4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo4ViewController.xib; sourceTree = "<group>"; };
+		3A4A0F231F4D639C0014EC48 /* Demo5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo5ViewController.h; sourceTree = "<group>"; };
+		3A4A0F241F4D639C0014EC48 /* Demo5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo5ViewController.m; sourceTree = "<group>"; };
+		3A4A0F251F4D639C0014EC48 /* Demo6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6ViewController.h; sourceTree = "<group>"; };
+		3A4A0F261F4D639C0014EC48 /* Demo6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6ViewController.m; sourceTree = "<group>"; };
+		3A4A0F271F4D639C0014EC48 /* Demo6SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6SubViewController.h; sourceTree = "<group>"; };
+		3A4A0F281F4D639C0014EC48 /* Demo6SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6SubViewController.m; sourceTree = "<group>"; };
+		6D1C9518D214F0D834F3B058 /* Pods-WeiboPhotoPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiboPhotoPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeiboPhotoPicker/Pods-WeiboPhotoPicker.release.xcconfig"; sourceTree = "<group>"; };
+		B2478CB9DD75574838980515 /* Pods_WeiboPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiboPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA17BD60EA6A9A321DFAC65 /* Pods-WeiboPhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiboPhotoPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeiboPhotoPicker/Pods-WeiboPhotoPicker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A4A0EE01F4D608B0014EC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442BEF83ECAA9E0A0FF3936 /* Pods_WeiboPhotoPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A0EF91F4D608B0014EC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A0F041F4D608B0014EC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A4A0EDA1F4D608B0014EC48 = {
+			isa = PBXGroup;
+			children = (
+				3A4A0EE51F4D608B0014EC48 /* WeiboPhotoPicker */,
+				3A4A0EFF1F4D608B0014EC48 /* WeiboPhotoPickerTests */,
+				3A4A0F0A1F4D608B0014EC48 /* WeiboPhotoPickerUITests */,
+				3A4A0EE41F4D608B0014EC48 /* Products */,
+				DC6DCBCEF4067E7BA2974A22 /* Pods */,
+				7885F3F11B7B3E50E24BA660 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4A0EE41F4D608B0014EC48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A0EE31F4D608B0014EC48 /* WeiboPhotoPicker.app */,
+				3A4A0EFC1F4D608B0014EC48 /* WeiboPhotoPickerTests.xctest */,
+				3A4A0F071F4D608B0014EC48 /* WeiboPhotoPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4A0EE51F4D608B0014EC48 /* WeiboPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A0EE91F4D608B0014EC48 /* AppDelegate.h */,
+				3A4A0EEA1F4D608B0014EC48 /* AppDelegate.m */,
+				3A4A0EEC1F4D608B0014EC48 /* ViewController.h */,
+				3A4A0EED1F4D608B0014EC48 /* ViewController.m */,
+				3A4A0F191F4D639C0014EC48 /* Demo1ViewController.h */,
+				3A4A0F1A1F4D639C0014EC48 /* Demo1ViewController.m */,
+				3A4A0F1B1F4D639C0014EC48 /* Demo1ViewController.xib */,
+				3A4A0F1C1F4D639C0014EC48 /* Demo2ViewController.h */,
+				3A4A0F1D1F4D639C0014EC48 /* Demo2ViewController.m */,
+				3A4A0F1E1F4D639C0014EC48 /* Demo3ViewController.h */,
+				3A4A0F1F1F4D639C0014EC48 /* Demo3ViewController.m */,
+				3A4A0F201F4D639C0014EC48 /* Demo4ViewController.h */,
+				3A4A0F211F4D639C0014EC48 /* Demo4ViewController.m */,
+				3A4A0F221F4D639C0014EC48 /* Demo4ViewController.xib */,
+				3A4A0F231F4D639C0014EC48 /* Demo5ViewController.h */,
+				3A4A0F241F4D639C0014EC48 /* Demo5ViewController.m */,
+				3A4A0F251F4D639C0014EC48 /* Demo6ViewController.h */,
+				3A4A0F261F4D639C0014EC48 /* Demo6ViewController.m */,
+				3A4A0F271F4D639C0014EC48 /* Demo6SubViewController.h */,
+				3A4A0F281F4D639C0014EC48 /* Demo6SubViewController.m */,
+				3A4A0EEF1F4D608B0014EC48 /* Main.storyboard */,
+				3A4A0EF21F4D608B0014EC48 /* Assets.xcassets */,
+				3A4A0EF41F4D608B0014EC48 /* LaunchScreen.storyboard */,
+				3A4A0EF71F4D608B0014EC48 /* Info.plist */,
+				3A4A0EE61F4D608B0014EC48 /* Supporting Files */,
+			);
+			path = WeiboPhotoPicker;
+			sourceTree = "<group>";
+		};
+		3A4A0EE61F4D608B0014EC48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A0EE71F4D608B0014EC48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A4A0EFF1F4D608B0014EC48 /* WeiboPhotoPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A0F001F4D608B0014EC48 /* WeiboPhotoPickerTests.m */,
+				3A4A0F021F4D608B0014EC48 /* Info.plist */,
+			);
+			path = WeiboPhotoPickerTests;
+			sourceTree = "<group>";
+		};
+		3A4A0F0A1F4D608B0014EC48 /* WeiboPhotoPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A0F0B1F4D608B0014EC48 /* WeiboPhotoPickerUITests.m */,
+				3A4A0F0D1F4D608B0014EC48 /* Info.plist */,
+			);
+			path = WeiboPhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+		7885F3F11B7B3E50E24BA660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2478CB9DD75574838980515 /* Pods_WeiboPhotoPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC6DCBCEF4067E7BA2974A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEA17BD60EA6A9A321DFAC65 /* Pods-WeiboPhotoPicker.debug.xcconfig */,
+				6D1C9518D214F0D834F3B058 /* Pods-WeiboPhotoPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A4A0EE21F4D608B0014EC48 /* WeiboPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4A0F101F4D608B0014EC48 /* Build configuration list for PBXNativeTarget "WeiboPhotoPicker" */;
+			buildPhases = (
+				8D29CEE33F0CF7EAC2AA6B34 /* [CP] Check Pods Manifest.lock */,
+				3A4A0EDF1F4D608B0014EC48 /* Sources */,
+				3A4A0EE01F4D608B0014EC48 /* Frameworks */,
+				3A4A0EE11F4D608B0014EC48 /* Resources */,
+				E7301F2894B690D5C7E1A052 /* [CP] Embed Pods Frameworks */,
+				3A6111C831069CC0B9362E6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiboPhotoPicker;
+			productName = WeiboPhotoPicker;
+			productReference = 3A4A0EE31F4D608B0014EC48 /* WeiboPhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A4A0EFB1F4D608B0014EC48 /* WeiboPhotoPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4A0F131F4D608B0014EC48 /* Build configuration list for PBXNativeTarget "WeiboPhotoPickerTests" */;
+			buildPhases = (
+				3A4A0EF81F4D608B0014EC48 /* Sources */,
+				3A4A0EF91F4D608B0014EC48 /* Frameworks */,
+				3A4A0EFA1F4D608B0014EC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4A0EFE1F4D608B0014EC48 /* PBXTargetDependency */,
+			);
+			name = WeiboPhotoPickerTests;
+			productName = WeiboPhotoPickerTests;
+			productReference = 3A4A0EFC1F4D608B0014EC48 /* WeiboPhotoPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A4A0F061F4D608B0014EC48 /* WeiboPhotoPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4A0F161F4D608B0014EC48 /* Build configuration list for PBXNativeTarget "WeiboPhotoPickerUITests" */;
+			buildPhases = (
+				3A4A0F031F4D608B0014EC48 /* Sources */,
+				3A4A0F041F4D608B0014EC48 /* Frameworks */,
+				3A4A0F051F4D608B0014EC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4A0F091F4D608B0014EC48 /* PBXTargetDependency */,
+			);
+			name = WeiboPhotoPickerUITests;
+			productName = WeiboPhotoPickerUITests;
+			productReference = 3A4A0F071F4D608B0014EC48 /* WeiboPhotoPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A4A0EDB1F4D608B0014EC48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "维奕";
+				TargetAttributes = {
+					3A4A0EE21F4D608B0014EC48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y9U34KNW5X;
+						ProvisioningStyle = Automatic;
+					};
+					3A4A0EFB1F4D608B0014EC48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2M9SKNU2B7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A4A0EE21F4D608B0014EC48;
+					};
+					3A4A0F061F4D608B0014EC48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2M9SKNU2B7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A4A0EE21F4D608B0014EC48;
+					};
+				};
+			};
+			buildConfigurationList = 3A4A0EDE1F4D608B0014EC48 /* Build configuration list for PBXProject "WeiboPhotoPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A4A0EDA1F4D608B0014EC48;
+			productRefGroup = 3A4A0EE41F4D608B0014EC48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A4A0EE21F4D608B0014EC48 /* WeiboPhotoPicker */,
+				3A4A0EFB1F4D608B0014EC48 /* WeiboPhotoPickerTests */,
+				3A4A0F061F4D608B0014EC48 /* WeiboPhotoPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A4A0EE11F4D608B0014EC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4A0F2E1F4D639C0014EC48 /* Demo4ViewController.xib in Resources */,
+				3A4A0EF61F4D608B0014EC48 /* LaunchScreen.storyboard in Resources */,
+				3A4A0F2A1F4D639C0014EC48 /* Demo1ViewController.xib in Resources */,
+				3A4A0EF31F4D608B0014EC48 /* Assets.xcassets in Resources */,
+				3A4A0EF11F4D608B0014EC48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A0EFA1F4D608B0014EC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A0F051F4D608B0014EC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6111C831069CC0B9362E6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiboPhotoPicker/Pods-WeiboPhotoPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D29CEE33F0CF7EAC2AA6B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7301F2894B690D5C7E1A052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiboPhotoPicker/Pods-WeiboPhotoPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A4A0EDF1F4D608B0014EC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4A0F2B1F4D639C0014EC48 /* Demo2ViewController.m in Sources */,
+				3A4A0F2F1F4D639C0014EC48 /* Demo5ViewController.m in Sources */,
+				3A4A0EEE1F4D608B0014EC48 /* ViewController.m in Sources */,
+				3A4A0F311F4D639C0014EC48 /* Demo6SubViewController.m in Sources */,
+				3A4A0F291F4D639C0014EC48 /* Demo1ViewController.m in Sources */,
+				3A4A0F2D1F4D639C0014EC48 /* Demo4ViewController.m in Sources */,
+				3A4A0F2C1F4D639C0014EC48 /* Demo3ViewController.m in Sources */,
+				3A4A0EEB1F4D608B0014EC48 /* AppDelegate.m in Sources */,
+				3A4A0F301F4D639C0014EC48 /* Demo6ViewController.m in Sources */,
+				3A4A0EE81F4D608B0014EC48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A0EF81F4D608B0014EC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4A0F011F4D608B0014EC48 /* WeiboPhotoPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A0F031F4D608B0014EC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4A0F0C1F4D608B0014EC48 /* WeiboPhotoPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A4A0EFE1F4D608B0014EC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A4A0EE21F4D608B0014EC48 /* WeiboPhotoPicker */;
+			targetProxy = 3A4A0EFD1F4D608B0014EC48 /* PBXContainerItemProxy */;
+		};
+		3A4A0F091F4D608B0014EC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A4A0EE21F4D608B0014EC48 /* WeiboPhotoPicker */;
+			targetProxy = 3A4A0F081F4D608B0014EC48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A4A0EEF1F4D608B0014EC48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4A0EF01F4D608B0014EC48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A4A0EF41F4D608B0014EC48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4A0EF51F4D608B0014EC48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A4A0F0E1F4D608B0014EC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A4A0F0F1F4D608B0014EC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A4A0F111F4D608B0014EC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA17BD60EA6A9A321DFAC65 /* Pods-WeiboPhotoPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y9U34KNW5X;
+				INFOPLIST_FILE = WeiboPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiyi.WeiboPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A4A0F121F4D608B0014EC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1C9518D214F0D834F3B058 /* Pods-WeiboPhotoPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y9U34KNW5X;
+				INFOPLIST_FILE = WeiboPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiyi.WeiboPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A4A0F141F4D608B0014EC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2M9SKNU2B7;
+				INFOPLIST_FILE = WeiboPhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiyi.WeiboPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiboPhotoPicker.app/WeiboPhotoPicker";
+			};
+			name = Debug;
+		};
+		3A4A0F151F4D608B0014EC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2M9SKNU2B7;
+				INFOPLIST_FILE = WeiboPhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiyi.WeiboPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiboPhotoPicker.app/WeiboPhotoPicker";
+			};
+			name = Release;
+		};
+		3A4A0F171F4D608B0014EC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2M9SKNU2B7;
+				INFOPLIST_FILE = WeiboPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiyi.WeiboPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiboPhotoPicker;
+			};
+			name = Debug;
+		};
+		3A4A0F181F4D608B0014EC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2M9SKNU2B7;
+				INFOPLIST_FILE = WeiboPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiyi.WeiboPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiboPhotoPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A4A0EDE1F4D608B0014EC48 /* Build configuration list for PBXProject "WeiboPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4A0F0E1F4D608B0014EC48 /* Debug */,
+				3A4A0F0F1F4D608B0014EC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4A0F101F4D608B0014EC48 /* Build configuration list for PBXNativeTarget "WeiboPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4A0F111F4D608B0014EC48 /* Debug */,
+				3A4A0F121F4D608B0014EC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4A0F131F4D608B0014EC48 /* Build configuration list for PBXNativeTarget "WeiboPhotoPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4A0F141F4D608B0014EC48 /* Debug */,
+				3A4A0F151F4D608B0014EC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4A0F161F4D608B0014EC48 /* Build configuration list for PBXNativeTarget "WeiboPhotoPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4A0F171F4D608B0014EC48 /* Debug */,
+				3A4A0F181F4D608B0014EC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A4A0EDB1F4D608B0014EC48 /* Project object */;
+}
